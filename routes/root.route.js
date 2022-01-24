@@ -1,8 +1,8 @@
 const Router = require("@koa/router");
+const rootController = require("../controllers/root.controller");
+
 const router = new Router();
 
-router.get("/", async (ctx, next) => {
-  ctx.body = "Index";
-});
+router.get("/", rootController.index);
 
 module.exports = router;
