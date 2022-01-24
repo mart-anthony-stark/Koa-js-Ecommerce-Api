@@ -1,0 +1,18 @@
+{
+  "name": "koa-ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.4",
+    "koa-combine-routers": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "Mart Anthony Salazar",
+  "license": "ISC"
+}
