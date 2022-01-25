@@ -7,6 +7,7 @@
     "@koa/router": "^10.1.1",
     "bcryptjs": "^2.4.3",
     "dotenv": "^14.3.0",
+    "jsonwebtoken": "^8.5.1",
     "koa": "^2.13.4",
     "koa-body": "^4.2.0",
     "koa-combine-routers": "^4.0.2",
