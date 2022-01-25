@@ -1,4 +1,5 @@
 const Koa = require("koa");
+const koaBody = require("koa-body");
 const router = require("./routes");
 const mongoose = require("mongoose");
 require("dotenv").config({});
@@ -6,6 +7,7 @@ require("dotenv").config({});
 const app = new Koa();
 const PORT = process.env.PORT || 3000;
 
+app.use(koaBody({ multipart: true }));
 app.use(router());
 
 app.listen(PORT, async (e) => {
